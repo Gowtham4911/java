@@ -1,0 +1,36 @@
+<html>
+    <head>
+    <script type="text/javascript">
+            function login()
+            {
+            username=document.getElementById("Name").value
+            password=document.getElementById("name").value
+            if(username=="hello"&password=="1233")
+            alert("WELCOME"+username)
+            else
+                alert("Inavalid user Name")
+            }
+        </script>
+    </head>
+    <table>
+        <body>
+        <tr>
+            <th colspan=2>login screen</th>
+        </tr>
+        <tr>
+            <td>UserName</td>
+            <td> <input type="text" id="Name"></td>
+        </tr>
+        <tr>
+            <td>Password </td>
+            <td> <input type ="text" id="name"></td>
+        </tr>
+        <td>
+            <input type="button" value="login" onclick="login()" />
+            <input type="button" value="cancel" onclick="cancel"/> 
+        </td>
+    </body>
+    </table>
+
+
+</html>

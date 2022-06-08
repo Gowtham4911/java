@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            
+            function Hide()
+            {
+            x=document.getElementById("gopal");
+                x.style.display="none";
+            }
+            
+            function unHide()
+            {
+            x=document.getElementById("gopal");
+            x.style.display="block";
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            Hide<input type="radio" name="name" onclick="Hide()"/> 
+            unHide <input type="radio" name="name" onclick="unHide()"/>
+    </form>  
+      <p id="gopal">This is sample data</p>
+      
+    </body>
+</html>
